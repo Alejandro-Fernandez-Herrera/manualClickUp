@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Descripcion de la interfaz - Manual ClickUp</title>
+  <link rel="icon" href="../img/favicon.svg"/>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../css/tokens.css"/>
+  <link rel="stylesheet" href="../css/base.css"/>
+  <link rel="stylesheet" href="../css/layout.css"/>
+  <link rel="stylesheet" href="../css/components.css"/>
+  <link rel="stylesheet" href="../css/pages.css"/>
+  <link rel="stylesheet" href="../css/responsive.css"/>
+</head>
+<body data-page-id="interfaz" data-base-path=".." style="opacity:0;">
+
+  <div id="shell-header"></div>
+  <div id="shell-sidebar"></div>
+  <div id="sidebar-backdrop" class="backdrop"></div>
+
+  <main class="content">
+    <div class="page-inner">
+      <div class="sec-hd">
+        <div class="sec-num">Seccion 05</div>
+        <h2 class="sec-title">Descripcion de la <span>interfaz</span></h2>
+        <p class="sec-lead">La interfaz de ClickUp se organiza en zonas claramente definidas. Conocerlas permite navegar de forma eficiente.</p>
+      </div>
+      <div style="text-align:center;">
+        <img src="../img/hero-clickup.png" alt="Interfaz de ClickUp Mobile" style="max-width:100%;border-radius:16px;border:1px solid var(--br);"/>
+      </div>
+      <div class="card-grid" style="margin-top:24px;">
+        <div class="card"><div class="card-icon" style="position:relative;width:38px;height:38px;background:#555;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:0.85rem;color:#fff;letter-spacing:0.5px;">AH<span style="position:absolute;bottom:0;right:0;width:10px;height:10px;background:#2ecc71;border-radius:50%;border:2px solid #1a1a2e;"></span></div><div class="card-title">Perfil y ajustes</div><p class="card-desc">Accede a tu perfil, calendario, notificaciones y ajustes.</p></div>
+        <div class="card"><div class="card-icon">🔍</div><div class="card-title">Buscar</div><p class="card-desc">Permite encontrar una tarea especifica que ya se ha creado dentro del Workspace.</p></div>
+        <div class="card"><div class="card-icon" style="width:38px;height:38px;background:#7B2FFF;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;">📅</div><div class="card-title">Hoy</div><p class="card-desc">Muestra las tareas pendientes para realizar el dia de hoy.</p></div>
+        <!-- <div class="card"><div class="card-icon">📥</div><div class="card-title">Inbox</div><p class="card-desc">Notificaciones y tareas asignadas a ti. Centro de seguimiento personal.</p></div> -->
+        <div class="card"><div class="card-icon">＋</div><div class="card-title">Boton "+"</div><p class="card-desc">Boton flotante. Punto de entrada principal para crear tareas.</p></div>
+        <!-- <div class="card"><div class="card-icon">🗂️</div><div class="card-title">Spaces</div><p class="card-desc">Contenedores de alto nivel con multiples Lists y Folders.</p></div> -->
+        <!-- <div class="card"><div class="card-icon">🔔</div><div class="card-title">Notificaciones</div><p class="card-desc">Alertas de menciones, fechas proximas y cambios de estado.</p></div> -->
+        <!-- <div class="card"><div class="card-icon">⋯</div><div class="card-title">Menu contextual</div><p class="card-desc">Filtros, ordenamiento y cambio de visualizacion de la vista actual.</p></div> -->
+      </div>
+    </div>
+  </main>
+
+  <div id="shell-footer"></div>
+  <div id="shell-search"></div>
+
+  <script src="../js/shell.js"></script>
+  <script src="../js/sidebar.js"></script>
+  <script src="../js/search.js"></script>
+  <script src="../js/faq.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

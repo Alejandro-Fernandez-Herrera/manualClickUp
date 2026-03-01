@@ -1,0 +1,18 @@
+/* ── RESET & BASE ── */
+*{margin:0;padding:0;box-sizing:border-box;}
+html{height:100%;scroll-behavior:smooth;}
+body{
+  min-height:100%;
+  font-family:'DM Sans',sans-serif;
+  background:var(--dk);
+  color:var(--tx);
+}
+
+/* ── TYPOGRAPHY ── */
+p{color:var(--tx);margin-bottom:14px;font-weight:300;font-size:0.93rem;line-height:1.7;}
+p:last-child{margin-bottom:0;}
+strong{color:#fff;font-weight:600;}
+.divider{height:1px;background:linear-gradient(90deg,var(--pu),transparent);opacity:0.25;margin:22px 0;}
+mark{background:rgba(123,47,255,0.3);color:#fff;border-radius:3px;padding:0 2px;}
+a.sup-lnk{color:var(--pu2);text-decoration:none;font-size:0.79rem;font-weight:500;}
+a.sup-lnk:hover{text-decoration:underline;}

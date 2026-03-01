@@ -1,0 +1,87 @@
+/* ── PORTADA HERO ── */
+.content--hero {
+  background:linear-gradient(160deg,#0D0D14 0%,#130d2a 55%,#1a0d3a 100%);
+  display:flex;align-items:center;justify-content:center;
+  min-height:100vh;
+}
+.content--hero .page-inner{text-align:center;padding-top:20px;padding-bottom:40px;}
+.hero-badge {
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(123,47,255,0.15);border:1px solid rgba(123,47,255,0.3);
+  border-radius:100px;padding:5px 14px;
+  font-size:0.75rem;color:var(--pu2);font-weight:600;letter-spacing:0.05em;
+  margin-bottom:24px;
+}
+.hero-title {
+  font-family:'Plus Jakarta Sans',sans-serif;font-size:clamp(2rem,5vw,3rem);font-weight:800;
+  color:#fff;line-height:1.1;margin-bottom:12px;
+}
+.hero-title span{color:var(--pu2);}
+.hero-sub {
+  font-size:0.95rem;color:var(--mt);max-width:480px;margin:0 auto 28px;
+  font-weight:300;line-height:1.65;
+}
+.hero-meta {
+  display:flex;gap:24px;flex-wrap:wrap;justify-content:center;margin-bottom:32px;
+}
+.meta-item .ml{font-size:0.65rem;text-transform:uppercase;letter-spacing:0.1em;color:var(--mt);margin-bottom:3px;}
+.meta-item .mv{font-family:'Plus Jakarta Sans',sans-serif;font-size:0.9rem;font-weight:700;color:#fff;}
+.hero-img {
+  width:min(240px,70vw);border-radius:24px;
+  box-shadow:0 0 60px rgba(123,47,255,0.3),0 0 120px rgba(123,47,255,0.1);
+  border:2px solid rgba(123,47,255,0.3);
+  margin:0 auto;display:block;
+}
+.hero-cta {
+  display:inline-flex;align-items:center;gap:10px;
+  margin-top:32px;
+  background:var(--pu);color:#fff;
+  border:none;border-radius:12px;
+  padding:14px 28px;
+  font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:0.95rem;
+  cursor:pointer;
+  text-decoration:none;
+  transition:all 0.2s;
+  box-shadow:0 0 24px rgba(123,47,255,0.4);
+}
+.hero-cta:hover{background:var(--pu2);box-shadow:0 0 32px rgba(123,47,255,0.6);}
+
+/* ── TOC ── */
+.toc-list{list-style:none;display:flex;flex-direction:column;gap:5px;margin-top:18px;}
+.toc-list li a{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:10px 14px;background:var(--sf);border:1px solid var(--br);border-radius:9px;
+  color:var(--tx);text-decoration:none;font-size:0.85rem;transition:all 0.2s;cursor:pointer;
+}
+.toc-list li a:hover{border-color:rgba(123,47,255,0.4);color:#fff;background:rgba(123,47,255,0.07);}
+.toc-num{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:0.75rem;color:var(--pu2);min-width:26px;}
+.toc-arr{color:var(--mt);font-size:0.78rem;}
+
+/* ── PHONE MOCK ── */
+.mock-phone{
+  width:240px;margin:24px auto 0;
+  background:var(--dk2);border:2px solid rgba(123,47,255,0.3);
+  border-radius:26px;overflow:hidden;
+  box-shadow:0 0 40px rgba(123,47,255,0.15);
+}
+.mock-sb{background:rgba(123,47,255,0.14);padding:7px 14px;display:flex;justify-content:space-between;font-size:0.65rem;color:var(--mt);}
+.mock-ab{
+  background:rgba(123,47,255,0.18);padding:10px 14px;
+  display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--br);
+}
+.mock-ab-title{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;color:#fff;font-size:0.88rem;}
+.mock-ic{width:26px;height:26px;background:rgba(123,47,255,0.22);border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:0.8rem;}
+.mock-body{padding:10px;}
+.mock-li{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.06);border-radius:9px;padding:9px 10px;margin-bottom:7px;font-size:0.72rem;}
+.mock-li-t{color:#fff;font-weight:500;margin-bottom:3px;}
+.mock-li-m{color:var(--mt);font-size:0.65rem;display:flex;gap:6px;flex-wrap:wrap;}
+.mock-fab{
+  background:var(--pu);width:44px;height:44px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1.3rem;color:#fff;margin:8px auto 4px;
+  box-shadow:0 0 18px rgba(123,47,255,0.5);
+}
+.mock-nb{background:rgba(13,13,20,0.95);border-top:1px solid var(--br);padding:8px 14px;display:flex;justify-content:space-around;}
+.mock-ni{display:flex;flex-direction:column;align-items:center;gap:2px;font-size:0.58rem;color:var(--mt);}
+.mock-ni.on{color:var(--pu2);}
+.mock-ni-ic{font-size:0.95rem;}

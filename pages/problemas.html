@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Solucion de problemas - Manual ClickUp</title>
+  <link rel="icon" href="../img/favicon.svg"/>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../css/tokens.css"/>
+  <link rel="stylesheet" href="../css/base.css"/>
+  <link rel="stylesheet" href="../css/layout.css"/>
+  <link rel="stylesheet" href="../css/components.css"/>
+  <link rel="stylesheet" href="../css/pages.css"/>
+  <link rel="stylesheet" href="../css/responsive.css"/>
+</head>
+<body data-page-id="problemas" data-base-path=".." style="opacity:0;">
+
+  <div id="shell-header"></div>
+  <div id="shell-sidebar"></div>
+  <div id="sidebar-backdrop" class="backdrop"></div>
+
+  <main class="content">
+    <div class="page-inner">
+      <div class="sec-hd">
+        <div class="sec-num">Seccion 07</div>
+        <h2 class="sec-title">Solucion de <span>Problemas</span></h2>
+        <p class="sec-lead">Problemas frecuentes al usar ClickUp y como resolverlos. Toca cada pregunta para ver la solucion.</p>
+      </div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">La tarea no aparece en el List despues de crearla <span class="faq-arr">▼</span></div><div class="faq-a">Esto ocurre cuando la tarea fue creada en un List diferente al que estas viendo. Verifica el List de destino al crear. Tambien puede deberse a filtros activos — toca el icono de filtros y desactivalos para ver todas las tareas.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">No puedo asignar la tarea a un miembro del equipo <span class="faq-arr">▼</span></div><div class="faq-a">El miembro debe ser parte de tu Workspace y tener acceso al Space. Ve a <strong>Workspace Settings → Members</strong> para verificar que el usuario este invitado y tenga los permisos correctos.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">La app no sincroniza mis tareas en tiempo real <span class="faq-arr">▼</span></div><div class="faq-a">Verifica tu conexion a internet. Si el problema persiste, cierra y vuelve a abrir la app. Ve a <strong>Configuracion → Cuenta → Forzar sincronizacion</strong>. En casos extremos, cerrar sesion y volver a ingresar suele resolver el problema.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">No encuentro el boton "+" para crear tareas <span class="faq-arr">▼</span></div><div class="faq-a">El FAB "+" solo aparece dentro de un List o en la vista Home. Si estas en configuracion o en Spaces sin abrir un List, no sera visible. Navega a un List especifico: <strong>Spaces → [tu Space] → [tu List]</strong>.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">La fecha limite no se guarda correctamente <span class="faq-arr">▼</span></div><div class="faq-a">Confirma la fecha tocando <strong>"Done"</strong> en el selector antes de guardar la tarea. Si la fecha aparece diferente, revisa tu zona horaria en <strong>Perfil → Ajustes → Zona horaria</strong>.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">Error: "Something went wrong" <span class="faq-arr">▼</span></div><div class="faq-a">Indica un problema temporal con los servidores de ClickUp. Espera unos segundos y reintenta. Si persiste mas de 5 minutos, revisa el estado del servicio en <strong>status.clickup.com</strong>.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">No puedo adjuntar archivos a la tarea <span class="faq-arr">▼</span></div><div class="faq-a">Verifica permisos de acceso: en Android: <strong>Configuracion → Apps → ClickUp → Permisos</strong>. En iOS: <strong>Configuracion → ClickUp → Fotos</strong>. El tamano maximo en el plan gratuito es 100 MB por archivo.</div></div>
+      <div class="alert err" style="margin-top:20px;"><span class="alert-icon">🔴</span><span>Si experimentas perdida de datos o cierres inesperados repetidos, actualiza la app a su version mas reciente antes de intentar otras soluciones.</span></div>
+    </div>
+  </main>
+
+  <div id="shell-footer"></div>
+  <div id="shell-search"></div>
+
+  <script src="../js/shell.js"></script>
+  <script src="../js/sidebar.js"></script>
+  <script src="../js/search.js"></script>
+  <script src="../js/faq.js"></script>
+  <script src="../js/nav.js"></script>
+</body>
+</html>

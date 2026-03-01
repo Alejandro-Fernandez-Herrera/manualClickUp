@@ -1,0 +1,19 @@
+/* ── DESIGN TOKENS ── */
+:root {
+  --pu: #7B2FFF;
+  --pu2: #A259FF;
+  --pu3: #5B1FC8;
+  --cy: #00D4FF;
+  --pk: #FF4E8A;
+  --yl: #FFD600;
+  --dk: #0D0D14;
+  --dk2: #13131E;
+  --dk3: #1A1A2E;
+  --sf: #1E1E30;
+  --br: rgba(123,47,255,0.18);
+  --tx: #E8E8F0;
+  --mt: #8888AA;
+  --hh: 64px;
+  --fh: 60px;
+  --sidebar-w: 280px;
+}
